@@ -1,7 +1,7 @@
 import cv2
 import sys
 
-image_path = r"c:\Users\kevin\OneDrive\Desktop\pep\cristiano.jpg"
+image_path = r"c:\Users\kevin\OneDrive\Desktop\pep\cristiano.jpg" #Enter the path to your Image
 
 
 image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
@@ -58,3 +58,4 @@ with open(output_file, "w") as file:
     file.write(ascii_image)
 
 print("\nASCII image successfully saved as for_loop.txt")
+
